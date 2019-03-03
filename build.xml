@@ -1,0 +1,85 @@
+<project name="ProjetUniv" default="compile" basedir=".">
+    <description>
+        The build file for the Dataflow example/
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="um/src"/>
+  <property name="bin" location="um/bin"/>
+  <property name="junit.output.dir" value="junit"/>
+  <property name="nom" value="JEUDY"/>
+  
+   <path id="JUnit 4.libraryclasspath">
+	        <pathelement location="lib/junit.jar"/>
+	        <pathelement location="lib/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+  </path>
+  <path id="ProjetUniv.classpath">
+	        <pathelement location="${bin}"/>
+	        <path refid="JUnit 4.libraryclasspath"/>
+  </path>
+  
+  <taskdef name="junit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+  <classpath>
+    <pathelement location="lib/ant-junit.jar"/>
+    <pathelement location="lib/ant-junit4.jar"/>
+  </classpath>
+</taskdef>
+
+	<target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${bin}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac debug="true" srcdir="${src}" excludes="" destdir="${bin}" includeantruntime="false" classpath="lib/junit.jar" />
+  </target>
+
+  <target name="run" depends="compile"
+          description="executer un code en input">
+    <echo>================ machineUniverselle ================</echo>
+    <java classname="machineUniverselle.LaunchMachine"
+          classpath="${bin}">
+       <arg value="${file}"/>
+    </java>
+   
+  </target>
+
+  <target name="dist" depends="init,clean"
+        description="Generate distribution distribution" >
+    <!-- tout mettre dans l'archive -->
+    <jar basedir="." jarfile="../CA_${nom}_${DSTAMP}.jar"/>
+  </target>
+
+  <target name="clean"
+        description="clean up" >	
+	<echo>================ Removing temporary files... ================</echo>
+        <delete verbose="true"> <!-- Remove all *~ files -->
+	   <fileset dir="${basedir}" defaultexcludes="no">
+             <include name="**/*~"/>
+           </fileset>
+        </delete>
+        <echo>================ Removing build directory ================</echo>    
+	<delete dir="${bin}"/>
+  </target>
+	
+	<target name="Testeur" depends="compile">
+	        <mkdir dir="${junit.output.dir}"/>
+	        <junit fork="yes" printsummary="withOutAndErr">
+	            <formatter type="xml"/>
+	            <test name="machineUniverselle.test.Testeur" todir="${junit.output.dir}"/>
+	            <classpath refid="ProjetUniv.classpath"/>
+	        </junit>
+	    </target>
+	<target name="junitreport">
+	        <junitreport todir="${junit.output.dir}">
+	            <fileset dir="${junit.output.dir}">
+	                <include name="TEST-*.xml"/>
+	            </fileset>
+	            <report format="frames" todir="${junit.output.dir}"/>
+	        </junitreport>
+	    </target>
+	
+</project>

@@ -1,0 +1,3 @@
+let myVar = 2;
+scan  myVar;
+print myVar

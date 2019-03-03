@@ -1,0 +1,1 @@
+print 60 + ( NOT(NOT( 5 = 5 )) AND NOT( 5 = 4 ) )

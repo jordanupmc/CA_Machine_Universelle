@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ppti-14-302-01" name="machineUniverselle.test.Testeur" skipped="0" tests="1" time="0.654" timestamp="2018-04-02T15:09:02">
+  <properties>
+    <property name="ant.project.invoked-targets" value="Testeur" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk1.8.0_45/jre/lib/amd64" />
+    <property name="java.vm.version" value="25.45-b02" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on October 7 2014" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ant.file.ProjetUniv" value="/users/nfs/Etu0/3502330/CA/ProjetUniv/build.xml" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="FR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="/users/nfs/Etu0/3502330/CA/ProjetUniv" />
+    <property name="java.runtime.version" value="1.8.0_45-b14" />
+    <property name="bin" value="/users/nfs/Etu0/3502330/CA/ProjetUniv/um/bin" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="basedir" value="/users/nfs/Etu0/3502330/CA/ProjetUniv" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk1.8.0_45/jre/lib/endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="os.name" value="Linux" />
+    <property name="DSTAMP" value="20180402" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="ant.project.name" value="ProjetUniv" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="TODAY" value="April 2 2018" />
+    <property name="java.library.path" value="/Infos/bd/client11/instantclient_11_2:/Infos/bd/client11/instantclient_11_2:/Infos/bd/client11/instantclient_11_2:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="src" value="/users/nfs/Etu0/3502330/CA/ProjetUniv/um/src" />
+    <property name="java.class.version" value="52.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="3.16.0-4-amd64" />
+    <property name="ant.file" value="/users/nfs/Etu0/3502330/CA/ProjetUniv/build.xml" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.home" value="/users/Etu0/3502330" />
+    <property name="user.timezone" value="Europe/Paris" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="TSTAMP" value="1709" />
+    <property name="java.class.path" value="/users/nfs/Etu0/3502330/CA/ProjetUniv/um/bin:/users/nfs/Etu0/3502330/CA/ProjetUniv/lib/junit.jar:/users/nfs/Etu0/3502330/CA/ProjetUniv/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/users/nfs/Etu0/3502330/CA/ProjetUniv:/Infos/bd/client11/instantclient_11_2/ojdbc6.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.4.jar:/usr/share/ant/lib/ant.jar:/users/nfs/Etu0/3502330/CA/ProjetUniv/lib/ant-junit.jar:/users/nfs/Etu0/3502330/CA/ProjetUniv/lib/ant-junit4.jar" />
+    <property name="user.name" value="3502330" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner machineUniverselle.test.Testeur skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/users/nfs/Etu0/3502330/CA/ProjetUniv/junit/TEST-machineUniverselle.test.Testeur.xml crashfile=/users/nfs/Etu0/3502330/CA/ProjetUniv/junitvmwatcher7502336016769217708.properties propsfile=/users/nfs/Etu0/3502330/CA/ProjetUniv/junit829275399237304932.properties" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.home" value="/usr/lib/jvm/jdk1.8.0_45/jre" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="fr" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_45" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/jdk1.8.0_45/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk1.8.0_45/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_45/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_45/jre/classes" />
+    <property name="ant.file.type.ProjetUniv" value="file" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="nom" value="JEUDY" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.cpu.isalist" value="" />
+  </properties>
+  <testcase classname="machineUniverselle.test.Testeur" name="test" time="0.628" />
+  <system-out><![CDATA[/users/nfs/Etu0/3502330/CA/ProjetUniv/tests
+
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic4.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic4.sum binOutput/exampleLogic4out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/example.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/example.sum binOutput/exampleout.um
+Compile done !
+Exec...
+A
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic7.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic7.sum binOutput/exampleLogic7out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic6.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic6.sum binOutput/exampleLogic6out.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation2.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation2.sum binOutput/exampleRelation2out.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic8.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic8.sum binOutput/exampleLogic8out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic2.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic2.sum binOutput/exampleLogic2out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic3.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic3.sum binOutput/exampleLogic3out.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc3.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc3.sum binOutput/exampleCalc3out.um
+Compile done !
+Exec...
+?
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation1.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation1.sum binOutput/exampleRelation1out.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic5.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic5.sum binOutput/exampleLogic5out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleBind2.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleBind2.sum binOutput/exampleBind2out.um
+Compile done !
+Exec...
+AB
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation0.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation0.sum binOutput/exampleRelation0out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleAdd.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleAdd.sum binOutput/exampleAddout.um
+Compile done !
+Exec...
+M
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc2.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc2.sum binOutput/exampleCalc2out.um
+Compile done !
+Exec...
+K
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleBind.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleBind.sum binOutput/exampleBindout.um
+Compile done !
+Exec...
+A
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleLogic.sum binOutput/exampleLogicout.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleScan.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleScan.sum binOutput/exampleScanout.um
+Compile done !
+Exec...
+@>:A
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc.sum binOutput/exampleCalcout.um
+Compile done !
+Exec...
+A
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation4.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation4.sum binOutput/exampleRelation4out.um
+Compile done !
+Exec...
+<
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc4.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleCalc4.sum binOutput/exampleCalc4out.um
+Compile done !
+Exec...
+5
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation3.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/exampleRelation3.sum binOutput/exampleRelation3out.um
+Compile done !
+Exec...
+=
+==============================================
+/users/nfs/Etu0/3502330/CA/ProjetUniv/tests/examplePrint.sum COMPILE....
+./sum/umc /users/nfs/Etu0/3502330/CA/ProjetUniv/tests/examplePrint.sum binOutput/examplePrintout.um
+Compile done !
+Exec...
+Jordan rules]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
